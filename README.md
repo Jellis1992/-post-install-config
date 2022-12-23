@@ -18,16 +18,27 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- osTicket
+
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cm2mKiB.png"/>
+
+<img src="https://i.imgur.com/JFQz9E2.png"/>
+
+<img src="https://i.imgur.com/dYbYAK8.png"/>
+
+<img src="https://i.imgur.com/8MtelFm.png"/>
+
+
+<img src="https://i.imgur.com/1HwNdpG.png"/>
+  
+  * Configure Roles 
+    1. Admin Panel -> Agents -> Roles 
+    2. Supreme Admin 
+
 </p>
 <p>
 
@@ -35,17 +46,50 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<img src="https://i.imgur.com/AlNHIgF.png"/>
 
-</p>
-<br />
+* Configure Departments 
+    1. Admin Panel -> Agents -> Departments 
+    2. System Administrators
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<img src="https://i.imgur.com/9JRBHRR.png"/>
 
-</p>
-<br />
+* Configure Teams 
+    1. Admin Panel -> Agents -> Teams 
+        1. Level I Support 
+        2. Level II Support
+
+<img src="https://i.imgur.com/nTEmtr4.png"/>
+
+* Configure Agents (workers) 
+    1. Admin Panel -> Agents -> Add New 
+        1. Jane 
+        2. John
+        
+<img src="https://i.imgur.com/g5nXCvz.png"/>   
+
+* Configure Users (customers) 
+    1. Agent Panel -> Users -> Add New 
+        1. Karen 
+        2. Ken
+        
+<img src="https://i.imgur.com/yzIRtR7.png"/>    
+
+* Configure SLA 
+    1. Admin Panel -> Manage -> SLA 
+        1. Sev-A (1 hour, 24/7) 
+        2. Sev-B (4 hours, 24/7) 
+        3. Sev-C (8 hours, business hours) 
+        
+ <img src="https://i.imgur.com/er1EIQK.png"/>   
+ 
+ * Configure Help Topics 
+    1. Admin Panel -> Manage -> Help Topics 
+        1. Business Critical Outage 
+        2. Personal Computer Issues 
+        3. Equipment Request 
+        4. Password Reset 
+        
+        
+        
+
